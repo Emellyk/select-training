@@ -8,6 +8,6 @@ ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
       <App />
-      </ChakraProvider>
-  </React.StrictMode>,
+    </ChakraProvider>
+  </React.StrictMode>
 )

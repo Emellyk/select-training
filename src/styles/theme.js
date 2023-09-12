@@ -52,6 +52,10 @@ const theme = extendTheme({
     dropdown: 1000,
     sticky: 1100,
     banner: 1200,
+  },
+  h1: {
+    fontSizes: '64px',
+    colors: '900.blue'
   }
 });
 

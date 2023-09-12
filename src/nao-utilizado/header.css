@@ -28,7 +28,6 @@ header ul li {
 header ul li a {
   color: #fff;
   text-decoration: none;
-
 }
 
 .header-bg {
@@ -50,29 +49,25 @@ h1 {
   font-family: 'Radio Canada', sans-serif;
   margin-left: 20px;
   margin-top: 256px;
-  color: #001F55;
+  color: #001f55;
 }
 
 h2 {
-font-size: 87px;
-margin: 20px;
-font-family: 'Radio Canada', sans-serif;
-color: #F37A02;
-margin-top: -50px;
+  font-size: 87px;
+  margin: 20px;
+  font-family: 'Radio Canada', sans-serif;
+  color: #f37a02;
+  margin-top: -50px;
 }
 
 h3 {
-font-size: 32px;
-margin: 24px;
-font-family: 'Radio Canada', sans-serif;
-font-weight: 300;
-margin-top: 46px;
-color: #001F55;
+  font-size: 32px;
+  margin: 24px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 300;
+  margin-top: 46px;
+  color: #001f55;
 }
-
-
-
-
 
 main.cards {
   display: flex;
@@ -92,11 +87,9 @@ main.cards section.card {
   margin-left: 32px;
 }
 
-
 main.cards section.card .icon {
   width: 300px;
   height: 64px;
-
 }
 
 main.cards section.card img {
@@ -108,7 +101,7 @@ main.cards section.card h4 {
   font-size: 36px;
   margin: 16px 0;
   font-family: 'Radio Canada', sans-serif;
-  color: #F37A02;
+  color: #f37a02;
 }
 
 main.cards section.card span {
@@ -131,23 +124,21 @@ main.cards section.card button {
   margin-bottom: 16px 0;
 }
 
-
 @media screen and (max-width: 720px) {
   main.cards {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   main.cards section.card {
-      margin-left: 0;
-      margin-bottom: 32px;
+    margin-left: 0;
+    margin-bottom: 32px;
   }
 
   main.cards section.card:last-child {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   main.cards section.card button {
-      font-size: 70%;
+    font-size: 70%;
   }
-
 }
