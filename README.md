@@ -1,3 +1,7 @@
+# LANDING PAGE - SELECT TRAINING
+Produção em andamento da Landing Page para a Escola Select Training Sinop/MT.
+Projeto em React + Vite e utilizando o Chakra UI para estilização.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
