@@ -1,0 +1,153 @@
+header {
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-family: 'Radio Canada';
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.header-bg {
+  width: 1471px;
+  height: 910px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.logo {
+  width: 173px;
+  height: 100.86px;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: 'Radio Canada', sans-serif;
+  margin-left: 20px;
+  margin-top: 256px;
+  color: #001F55;
+}
+
+h2 {
+font-size: 87px;
+margin: 20px;
+font-family: 'Radio Canada', sans-serif;
+color: #F37A02;
+margin-top: -50px;
+}
+
+h3 {
+font-size: 32px;
+margin: 24px;
+font-family: 'Radio Canada', sans-serif;
+font-weight: 300;
+margin-top: 46px;
+color: #001F55;
+}
+
+
+
+
+
+main.cards {
+  display: flex;
+  padding: 150px;
+  margin-left: 110px;
+  position: absolute;
+  z-index: 2;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+}
+
+
+main.cards section.card .icon {
+  width: 300px;
+  height: 64px;
+
+}
+
+main.cards section.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main.cards section.card h4 {
+  font-size: 36px;
+  margin: 16px 0;
+  font-family: 'Radio Canada', sans-serif;
+  color: #F37A02;
+}
+
+main.cards section.card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 22px;
+  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main.cards section.card button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px 0;
+}
+
+
+@media screen and (max-width: 720px) {
+  main.cards {
+      flex-direction: column;
+  }
+
+  main.cards section.card {
+      margin-left: 0;
+      margin-bottom: 32px;
+  }
+
+  main.cards section.card:last-child {
+      margin-bottom: 0;
+  }
+
+  main.cards section.card button {
+      font-size: 70%;
+  }
+
+}
