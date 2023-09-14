@@ -6,7 +6,8 @@ import {
   SimpleGrid,
   Card,
   CardBody,
-  Container
+  Container,
+  Heading
 } from '@chakra-ui/react'
 
 export function Header() {
@@ -15,50 +16,29 @@ export function Header() {
       <Flex pos="absolute" zIndex={-1} right="0">
         <Flex direction={'column'}>
           <Box
-            textStyle="h1"
             pt="224"
             pl="5 "
             fontWeight="bold"
             fontSize="6xl"
-            color="blue.900"
+            color="#001F55"
           >
             CONSTRUA <br />
             SUA HISTÓRIA
           </Box>
-          <Box
-            textStyle="h1"
-            pl="5 "
-            fontWeight="bold"
-            fontSize="6xl"
-            color="orange"
-          >
+          <Box pl="5 " fontWeight="bold" fontSize="6xl" color="#F37A02">
             FAÇA SELECT
           </Box>
-          <Box
-            textStyle="h1"
-            pt="46"
-            pl="5 "
-            fontWeight="light"
-            fontSize="2xl"
-            color="blue.900"
-          >
+          <Box pt="46" pl="5" fontWeight="light" fontSize="2xl" color="#001F55">
             As pessoas de sucesso passam por aqui!
           </Box>
-          <Box
-            textStyle="h1"
-            pl="5 "
-            fontWeight="light"
-            fontSize="2xl"
-            color="blue.900"
-          >
-            28 anos trasnformando vidas.
+          <Box pl="5" fontWeight="light" fontSize="2xl" color="#001F55">
+            28 anos transformando vidas.
           </Box>
         </Flex>
         <Image src="banner.svg" alt="Banner hero" />
       </Flex>
 
-      /** Cards */
-      <Container maxW="1024px" pt="32">
+      <Container maxW="1024px" pt="32" pb="20">
         <SimpleGrid
           pt="600"
           spacing={4}
@@ -90,20 +70,52 @@ export function Header() {
             <Image objectFit="cover" src="premios.svg" borderRadius="lg" />
             <CardBody>
               <Text align="center" color="orange" fontWeight="bold">
-                PREMIAÇÕES
+                CERTIFICAÇÃO
               </Text>
-              <Text align="center">Premiada a nível Nacional</Text>
+              <Text align="center">Certificação reconhecida nível Brasil</Text>
             </CardBody>
           </Card>
           <Card bg="transparent">
             <Image objectFit="cover" src="premios.svg" borderRadius="lg" />
             <CardBody>
               <Text align="center" color="orange" fontWeight="bold">
-                PREMIAÇÕES
+                28 ANOS
               </Text>
-              <Text align="center">Premiada a nível Nacional</Text>
+              <Text align="center">Desde 1994 fazendo história.</Text>
             </CardBody>
           </Card>
+        </SimpleGrid>
+
+        <SimpleGrid pt="28">
+          <Flex>
+            <Image src="fachada.svg" width="470px" />
+            <Box pl="12">
+              <Heading fontSize="36" color="#F37A02">
+                SELECT TRAINING
+              </Heading>
+              <Text pt="5" color="#001F55">
+                Há mais de 10 anos a Select Training é escolhida como a melhor
+                escola de treinamentos e cursos de informática em Sinop, com
+                certificado reconhecido em todo território nacional.
+              </Text>
+            </Box>
+          </Flex>
+        </SimpleGrid>
+
+        <SimpleGrid pt="24">
+          <Flex>
+            <Box pr="12" align="end">
+              <Heading fontSize="36" color="#F37A02">
+                COLÉGIO SELECT
+              </Heading>
+              <Text pt="5" color="#001F55">
+                Sistema de Ensino EJA. Com a conclusão do Ensino fundamental e o
+                Ensino Médio você já estará com as portas abertas o mercado de
+                trabalho.
+              </Text>
+            </Box>
+            <Image src="fachada.svg" width="470px" />
+          </Flex>
         </SimpleGrid>
       </Container>
     </>
